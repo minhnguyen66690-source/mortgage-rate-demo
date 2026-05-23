@@ -29,7 +29,6 @@ config = load_config()
 pipeline = load_pipeline()
 
 st.title("Demo dự báo lãi suất khoản vay thế chấp nhà ở")
-st.caption("Ứng dụng minh họa học thuật cho đề tài dự báo lãi suất khoản vay thế chấp")
 
 st.markdown("### Giới thiệu")
 st.write(
