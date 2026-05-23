@@ -1,0 +1,41 @@
+{
+  "best_specification": "A_loan_only",
+  "best_model": "CatBoost",
+  "features_used": [
+    "credit_score",
+    "original_dti_ratio",
+    "original_ltv",
+    "original_cltv",
+    "original_upb",
+    "original_loan_term",
+    "loan_purpose",
+    "channel",
+    "property_type",
+    "property_state",
+    "occupancy_status",
+    "number_of_units",
+    "number_of_borrowers",
+    "mi_percentage",
+    "super_conforming_flag",
+    "interest_only_indicator",
+    "property_valuation_method"
+  ],
+  "validation_metrics": {
+    "MAE": 0.3433993730741571,
+    "RMSE": 0.45656558021730836,
+    "MedAE": 0.26974682657014704,
+    "R2": 0.32858626285272863,
+    "MBRE": 0.054981103662634305,
+    "MIBRE": 0.04983096402304818,
+    "Pred(0.25)": 0.9848447409603822
+  },
+  "test_metrics": {
+    "MAE": 0.28525837721440855,
+    "RMSE": 0.38842202693747,
+    "MedAE": 0.21906212851406215,
+    "R2": 0.38249760541512334,
+    "MBRE": 0.04522698057956178,
+    "MIBRE": 0.041516800663881664,
+    "Pred(0.25)": 0.9905505737151673
+  }
+}
